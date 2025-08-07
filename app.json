@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "ChessMVP",
+    "slug": "chess-mvp",
+    "scheme": "chess",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "plugins": [
+      "@shopify/react-native-skia/expo-plugin"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "expo-router": {
+      "origin": "auto"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
